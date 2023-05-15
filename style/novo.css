@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --verdeiff: #2f9e41;
+    --verdeiff2: #437849;
+    --vermelhoiff: #cd191e;
+}
+
+body {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--verdeiff);
+    padding: 10px;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    z-index: -1;
+}
+
+/* Estilos para o título */
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilos para o formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="datetime-local"],
+  form input[type="time"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 250px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0062;
+  }
+  
+  /* Estilos para o botão "Voltar" */
+  .botao {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .botao:hover {
+    background-color: #0062;
+  }
+  

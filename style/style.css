@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --verdeiff: #2f9e41;
+    --verdeiff2: #437849;
+    --vermelhoiff: #cd191e;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: var(--verdeiff);
+    text-align: center;
+    padding: 5px;
+}
+
+nav > a > button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+nav > a > button.add:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+nav > a > button.remove:hover {
+    background-color: #c42323;
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+nav > a > button.back:hover {
+    background-color: #232ec4;
+    box-shadow: 0px 15px 20px rgba(46, 64, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+nav > a > button:active {
+    transform: translateY(-1px);
+}
+
+.update {
+    background-color: #23c483;
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update:hover {
+    background-color: #1a9e6e;
+}
+
+
+img{
+    width: 250px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    left: 80px;
+    top: 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--verdeiff);
+    padding: 10px;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    z-index: -1;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #6fca74;
+}
+
+tr:hover {
+    background-color: #4b884e41;
+}
