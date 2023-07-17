@@ -22,7 +22,7 @@
         $id_diario = $_POST["id_diario"];
         $id_horario = $_POST["id_horario"];
 
-        $query = "INSERT INTO pessoa_projeto VALUES ('" . $id_diario . "','" . $id_horario . "')";
+        $query = "INSERT INTO diario_horario VALUES ('" . $id_diario . "','" . $id_horario . "')";
         $cadastro = mysqli_query($conexao, $query);
         if ($cadastro) {
             echo "Relação cadastrada com sucesso<br>";
