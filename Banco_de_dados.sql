@@ -50,8 +50,8 @@ CREATE TABLE `diario_horario` (
 
 CREATE TABLE `horario_atendimento` (
   `id` int(11) NOT NULL,
-  `data_hora_ini` datetime NOT NULL,
-  `data_hora_fim` datetime NOT NULL,
+  `data_ini` datetime NOT NULL,
+  `data_fim` datetime NOT NULL,
   `horario_ini` time NOT NULL,
   `horario_fim` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
